@@ -12,6 +12,8 @@ module Splurty
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
+    # Enable asset pipeline to serve static files
+    config.serve_static_files = true
     # Add the fonts path
     config.assets.paths << "#{Rails.root}/app/assets/fonts"
     # Precompile additional assets
